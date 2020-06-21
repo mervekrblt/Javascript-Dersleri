@@ -1,0 +1,1 @@
+Sadık Turan' ın, Udemy üzerinden verdiği "Sıfırdan İleri Seviye Modern Javascript Dersleri ES7+ | 2020" nin uygulamalarını içermektedir.
