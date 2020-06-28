@@ -1,1 +1,1 @@
-Sadık Turan' ın, Udemy üzerinden verdiği "Sıfırdan İleri Seviye Modern Javascript Dersleri ES7+ | 2020" nin uygulamalarını içermektedir.
+This repo includes applications of Sad?k Turan's "Advanced Level Modern Javascript Lessons ES7 + | 2020".
