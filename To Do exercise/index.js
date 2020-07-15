@@ -7,7 +7,14 @@ const taskList = document.querySelector('#task-list')
 eventListeners()
 
 function eventListeners(){
+    //submit event
     form.addEventListener('submit', addNewItem)
+
+    //delete one item
+    taskList.addEventListener('click', deleteItem)
+
+    //delete all
+    btnDeleteAll.addEventListener('click', deleteAllItems)
 }
 
 // addNewItem function 
@@ -42,3 +49,24 @@ function addNewItem(e){
     e.preventDefault()
 }
 
+//deleteItem function
+
+function deleteItem(e){
+
+    if(e.target.className==='fas fa-times'){  //ıf I press the button
+
+        e.target.parentElement.parentElement.remove()  // access to ul, if I press the button, delete ul (to reach button to ul, use 2 times parent element)
+    }
+
+    e.preventDefault()
+}
+
+//deleteAllItems function
+
+function deleteAllItems(e){
+
+    if(confirm('Are you sure')){
+        taskList.innerHTML=''
+    }
+    e.preventDefault()
+}
